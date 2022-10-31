@@ -1,0 +1,21 @@
+ul.nav-tabs {
+  li {
+    padding: 0.5rem 1rem;
+  }
+  a {
+    color: white !important;
+    font-family: "medium";
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    transition: all 400ms ease;
+    &:hover {
+      color: rgb(174, 202, 238) !important;
+      border-bottom-color: rgb(117, 151, 195);
+    }
+  }
+  a.active {
+    color: rgb(174, 202, 238) !important;
+    border-bottom-color: rgb(117, 151, 195);
+  }
+}

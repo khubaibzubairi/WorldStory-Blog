@@ -1,1 +1,73 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "logo";
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "light";
+  src: url("./assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("./assets/fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("./assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "black";
+  src: url("./assets/fonts/Poppins-Black.ttf");
+}
+
+body {
+  font-family: "regular";
+  font-size: 1.125rem;
+  color: #000000;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: "bold";
+}
+.custom-transition {
+  transition: all 400ms ease;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-family: "medium";
+  border-radius: 8px;
+}
+
+input,
+textarea,
+select:focus {
+  outline: none;
+}
+
+input,
+textarea,
+select {
+  background-color: rgb(58, 254, 254);
+  border-radius: 4px;
+}

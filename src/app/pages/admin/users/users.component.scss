@@ -1,0 +1,19 @@
+section.users {
+  table {
+    tr {
+      border-bottom: 1px solid rgb(85, 145, 189);
+      td {
+        font-size: 1rem;
+      }
+      &:nth-child(even) {
+        background-color: rgba(98, 86, 122, 0.4);
+      }
+      &:nth-child(odd) {
+        background-color: rgba(37, 32, 45, 0.4);
+      }
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
